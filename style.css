@@ -113,3 +113,9 @@ article .desc {
   padding: 10px;
   text-align: center;
 }
+footer {
+  padding: 15px 0;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+}

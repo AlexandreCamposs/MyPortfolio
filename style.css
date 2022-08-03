@@ -1,0 +1,115 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;900&family=Spartan:wght@300;400;800&display=swap'); */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  /* height: 100%; */
+  /* height: calc(100vh - 62px); */
+  background-image: linear-gradient(135deg, #333, 70%, #02a7c1 0);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  border-bottom: 2px solid #eee;
+  height: 61px;
+  width: 100%;
+}
+.home_nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  max-width: 900px;
+  height: 61px;
+  width: 100%;
+  /* background-color: wheat; */
+}
+.home_nav ul {
+  color: #eee;
+  padding: 20px;
+  display: flex;
+  height: 100%;
+  font-weight: 700;
+  list-style: none;
+}
+.home_nav ul li {
+  margin: 0 20px;
+}
+.home_nav a {
+  border-bottom: 2px solid transparent;
+  height: 100%;
+  padding-bottom: 17px;
+  transition: all 0.3s ease;
+}
+.home_nav a:hover {
+  border-bottom: 3px solid #02a7c1;
+  transition: all 0.3s ease;
+}
+
+main .container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  /* background-color: #02a7c1; */
+}
+.hero_text {
+  align-self: center;
+  /* background-color: chartreuse; */
+  display: block;
+  padding: 20px 0 20px 0;
+  color: #eee;
+  text-align: center;
+}
+.hero_text p {
+  font-size: 1.5rem;
+  padding: 0 0 10px 0;
+}
+.hero_text h1 {
+  font-size: 2rem;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.projetos {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 30px;
+  max-width: 1100px;
+}
+
+article img {
+  width: 320px;
+  height: 190px;
+  border-radius: 5px;
+}
+article .title {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+article .desc {
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+}
